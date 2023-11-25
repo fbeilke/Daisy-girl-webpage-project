@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Daisy Girl - Home</title>
+        <link rel="stylesheet" href="layout.css">
+    </head>
+    <body>
+
+        <div class="navigation-bar">
+           <a href="index-home.html" class="home-link">Home</a>
+           <a href="index-fun-form.html" class="fun-form-link">Fun Form</a>
+           <a href="index-find-your-own.html" class="find-your-own-link">Find Your Own</a>
+           <a href="index-pictures.html" class="pictures-link">Pictures</a>
+        </div>
+
+        <form action="index-home.html" method="post">
+            <fieldset>
+                <legend>Fun form that goes nowhere</legend>
+                <h2>Tell me about your pet!</h2>
+
+                <div>
+                    <label for="petName">Pet's name</label>
+                    <input type="text" id="petName" name="pet-name">
+                </div>
+                <div>
+                    <label for="animalType">What animal?</label>
+                    <input type="text" id="animalType" name="animal-type">
+                </div>
+                <div>
+                    <p>Pet's gender</p>
+                    <input type="radio" id="boy-option" name="radio-buttons" value="boy">
+                    <label for="boy-option">boy</label>
+
+                    <input type="radio" id="girl-option" name="radio-buttons" value="girl">
+                    <label for="girl-option">girl</label>
+
+                    <input type="checkbox" id="dont-care" name="checkbox">
+                    <label for="dont-care">I don't care</label>
+                </div>
+
+                <div>
+                    <label for="bio">Biography</label>
+                    <textarea id="bio" name="bio"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Submit to nowhere</button>
+                </div>
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>
