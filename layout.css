@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(238, 234, 200)
+}
+
 .navigation-bar {
     background-color: green;
     padding: 10px;
@@ -67,4 +71,33 @@ fieldset {
 
 .input {
     margin: 10px 0px 10px 0px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%
+}
+
+
+.couch-sit,
+.puppy-in-car,
+.tiny-puppy,
+.asleep-with-burrito,
+.Bo-and-Daisy,
+.meme {
+    height: 512px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
 }
